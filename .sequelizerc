@@ -1,5 +1,6 @@
 const { resolve } = require('path') // padronizar caminhos nos SOs
 
+// configura os caminhos de models, migrations e seeds
 module.exports = {
     config: resolve(__dirname, 'src', 'config', 'database.js'),
     'models-path': resolve(__dirname, 'src', 'app', 'models'),
